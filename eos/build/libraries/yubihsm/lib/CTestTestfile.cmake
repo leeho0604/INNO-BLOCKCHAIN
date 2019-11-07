@@ -1,0 +1,35 @@
+# CMake generated Testfile for 
+# Source directory: /home/ghlee/INNO-RTFDocs/eos/libraries/yubihsm/lib
+# Build directory: /home/ghlee/INNO-RTFDocs/eos/build/libraries/yubihsm/lib
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(parsing "/home/ghlee/INNO-RTFDocs/eos/build/libraries/yubihsm/lib/tests/test_parsing")
+set_tests_properties(parsing PROPERTIES  WORKING_DIRECTORY "/home/ghlee/INNO-RTFDocs/eos/build/lib/tests/")
+add_test(pbkdf2 "/home/ghlee/INNO-RTFDocs/eos/build/libraries/yubihsm/lib/tests/test_pbkdf2")
+set_tests_properties(pbkdf2 PROPERTIES  WORKING_DIRECTORY "/home/ghlee/INNO-RTFDocs/eos/build/lib/tests/")
+add_test(attest "attest")
+set_tests_properties(attest PROPERTIES  WORKING_DIRECTORY "/home/ghlee/INNO-RTFDocs/eos/build/examples/")
+add_test(generate_ec "generate_ec")
+add_test(generate_hmac "generate_hmac")
+add_test(import_authkey "import_authkey")
+add_test(import_rsa "import_rsa")
+set_tests_properties(import_rsa PROPERTIES  WORKING_DIRECTORY "/home/ghlee/INNO-RTFDocs/eos/build/examples/")
+add_test(info "info")
+add_test(wrap "wrap")
+add_test(wrap_data "wrap_data")
+add_test(yubico_otp "yubico_otp")
+add_test(echo "echo")
+add_test(import_ec "import_ec")
+set_tests_properties(import_ec PROPERTIES  WORKING_DIRECTORY "/home/ghlee/INNO-RTFDocs/eos/build/examples/")
+add_test(generate_rsa "generate_rsa")
+add_test(logs "logs")
+add_test(ssh "ssh")
+set_tests_properties(ssh PROPERTIES  WORKING_DIRECTORY "/home/ghlee/INNO-RTFDocs/eos/build/examples/")
+add_test(decrypt_rsa "decrypt_rsa")
+set_tests_properties(decrypt_rsa PROPERTIES  WORKING_DIRECTORY "/home/ghlee/INNO-RTFDocs/eos/build/examples/")
+add_test(decrypt_ec "decrypt_ec")
+add_test(import_ed "import_ed")
+set_tests_properties(import_ed PROPERTIES  WORKING_DIRECTORY "/home/ghlee/INNO-RTFDocs/eos/build/examples/")
+add_test(change_authkey "change_authkey")
+subdirs("tests")

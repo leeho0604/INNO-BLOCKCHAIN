@@ -1,0 +1,10 @@
+libdir=-L/home/ghlee/opt/eosio/lib
+includedir=-I
+
+Name: yubihsm
+Description: Yubico YubiHSM C Library
+URL: https://www.yubico.com/
+Version: 2.0.0
+Requires.private: libcrypto libcurl
+Libs: ${libdir} -lyubihsm
+Cflags: ${includedir}

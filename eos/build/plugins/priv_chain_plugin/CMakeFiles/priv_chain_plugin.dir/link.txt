@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpriv_chain_plugin.a  CMakeFiles/priv_chain_plugin.dir/priv_chain_plugin.cpp.o
+/usr/bin/ranlib libpriv_chain_plugin.a

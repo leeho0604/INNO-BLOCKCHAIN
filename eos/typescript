@@ -1,0 +1,134 @@
+Script started on 2019-08-11 21:59:02-0700
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos[00m$ ./eosio.version.hpp [K[K[K[K[K[K[K[K[K[K[K[K[K_u[Kfu[K[K[K[K[K[K[K[K[K[Kcd scripts/
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/scripts[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/scripts[00m$ ls
+[0m[01;32mabi_is_json.py[0m           [01;32meosio_install.sh[0m     generate_package.sh.in
+CMakeLists.txt           [01;32meosio-tn_bounce.sh[0m   generate_rpm.sh
+[01;32meosio_build_amazon.sh[0m    [01;32meosio-tn_down.sh[0m     generate_tarball.sh
+[01;32meosio_build_centos.sh[0m    [01;32meosio-tn_roll.sh[0m     mongod.conf
+[01;32meosio_build_darwin_deps[0m  [01;32meosio-tn_up.sh[0m       [01;32mparallel-test.sh[0m
+[01;32meosio_build_darwin.sh[0m    [01;32meosio_uninstall.sh[0m   [01;32mserial-test.sh[0m
+[01;32meosio_build_fedora.sh[0m    [01;32mfull_uninstaller.sh[0m  [01;32msubmodule_check.sh[0m
+[01;32meosio_build.sh[0m           generate_bottle.sh
+[01;32meosio_build_ubuntu.sh[0m    [01;32mgenerate_deb.sh[0m
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/scripts[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/scripts[00m$ ./full [K_uninstaller.sh 
+
+EOSIO installation (AND DEPENDENCIES) already found...
+./full_uninstaller.sh: line 6: [: ==: unary operator expected
+./full_uninstaller.sh: line 8: [: ==: unary operator expected
+Uninstalling...
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/scripts[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/scripts[00m$ ./eosio_uninstall.sh 
+Do you wish to remove this install? (requires sudo)
+1) Yes
+2) No
+#? 1
+
+This requires sudo, please run ./eosio_uninstall.sh with sudo
+
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/scripts[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/scripts[00m$ ./eosio_uninstall.sh [1@s[1@u[1@d[1@o[1@ 
+[sudo] password for eos: 
+Do you wish to remove this install? (requires sudo)
+1) Yes
+2) No
+#? 1
+rm: cannot remove 'cleos': No such file or directory
+rm: cannot remove 'eosio-abigen': No such file or directory
+rm: cannot remove 'eosio-launcher': No such file or directory
+rm: cannot remove 'eosio-s2wasm': No such file or directory
+rm: cannot remove 'eosio-wast2wasm': No such file or directory
+rm: cannot remove 'eosiocpp': No such file or directory
+rm: cannot remove 'keosd': No such file or directory
+rm: cannot remove 'nodeos': No such file or directory
+rm: cannot remove 'eosio-applesdemo': No such file or directory
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/scripts[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/scripts[00m$ ls
+[0m[01;32mabi_is_json.py[0m           [01;32meosio_install.sh[0m     generate_package.sh.in
+CMakeLists.txt           [01;32meosio-tn_bounce.sh[0m   generate_rpm.sh
+[01;32meosio_build_amazon.sh[0m    [01;32meosio-tn_down.sh[0m     generate_tarball.sh
+[01;32meosio_build_centos.sh[0m    [01;32meosio-tn_roll.sh[0m     mongod.conf
+[01;32meosio_build_darwin_deps[0m  [01;32meosio-tn_up.sh[0m       [01;32mparallel-test.sh[0m
+[01;32meosio_build_darwin.sh[0m    [01;32meosio_uninstall.sh[0m   [01;32mserial-test.sh[0m
+[01;32meosio_build_fedora.sh[0m    [01;32mfull_uninstaller.sh[0m  [01;32msubmodule_check.sh[0m
+[01;32meosio_build.sh[0m           generate_bottle.sh
+[01;32meosio_build_ubuntu.sh[0m    [01;32mgenerate_deb.sh[0m
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/scripts[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/scripts[00m$ cd ..
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos[00m$ cd build/
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/build[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/build[00m$ d[Kcd bin
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/build/bin[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/build/bin[00m$ sl
+
+Command 'sl' not found, but can be installed with:
+
+sudo apt install sl
+
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/build/bin[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/build/bin[00m$ cd ..
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/build[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/build[00m$ cd ..
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos[00m$ cd [K[K[Kcd sci[Kripts/
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/scripts[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/scripts[00m$ ls
+[0m[01;32mabi_is_json.py[0m           [01;32meosio_install.sh[0m     generate_package.sh.in
+CMakeLists.txt           [01;32meosio-tn_bounce.sh[0m   generate_rpm.sh
+[01;32meosio_build_amazon.sh[0m    [01;32meosio-tn_down.sh[0m     generate_tarball.sh
+[01;32meosio_build_centos.sh[0m    [01;32meosio-tn_roll.sh[0m     mongod.conf
+[01;32meosio_build_darwin_deps[0m  [01;32meosio-tn_up.sh[0m       [01;32mparallel-test.sh[0m
+[01;32meosio_build_darwin.sh[0m    [01;32meosio_uninstall.sh[0m   [01;32mserial-test.sh[0m
+[01;32meosio_build_fedora.sh[0m    [01;32mfull_uninstaller.sh[0m  [01;32msubmodule_check.sh[0m
+[01;32meosio_build.sh[0m           generate_bottle.sh
+[01;32meosio_build_ubuntu.sh[0m    [01;32mgenerate_deb.sh[0m
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/scripts[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/scripts[00m$ d===[K[K[K[Kcd ..
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos[00m$ cd bi[Kuild/
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/build[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/build[00m$ ^C
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/build[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/build[00m$ make -j$( nproc )
+[  2%] Built target builtins
+[  2%] Built target secp256k1
+[  2%] Built target Platform
+[  9%] Built target wabt
+[ 11%] Built target yubihsm_static
+[ 64%] Built target softfloat
+[ 65%] Built target Logging
+[ 65%] Built target IR
+[ 65%] Built target appbase_version
+[ 65%] Built target WASM
+[ 67%] Built target Runtime
+[ 68%] Built target chainbase
+[ 70%] Built target WAST
+[ 70%] Built target chainbase_test
+[ 71%] Built target appbase
+[ 71%] Built target appbase_example
+[ 81%] Built target fc
+[ 81%] Built target test_cypher_suites
+[ 86%] Built target eosio_chain
+[ 86%] Built target http_client_plugin
+[ 86%] Built target eosio_testing
+[ 86%] Built target chain_plugin
+[ 87%] Built target http_plugin
+[ 87%] Built target eosio-blocklog
+[ 88%] Built target eosio-launcher
+[ 89%] Built target wallet_plugin
+[ 89%] Built target bnet_plugin
+[ 89%] Built target producer_plugin
+[ 89%] Built target chain_api_plugin
+[ 89%] Built target history_plugin
+[ 89%] Built target state_history_plugin
+[ 89%] Built target wallet_api_plugin
+[ 90%] Built target txn_test_gen_plugin
+[ 90%] Built target db_size_api_plugin
+[ 90%] Built target login_plugin
+[ 91%] Built target mongo_db_plugin
+[ 91%] Built target test_control_plugin
+[ 91%] Built target keosd
+[ 94%] Built target unit_test
+[ 95%] Built target cleos
+[ 95%] Built target net_plugin
+[ 96%] Built target producer_api_plugin
+[ 96%] Built target plugin_test
+[ 97%] Built target history_api_plugin
+[ 98%] Built target test_control_api_plugin
+[ 98%] Built target net_api_plugin
+[100%] Built target nodeos
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/build[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/build[00m$ cd //
+]0;eos@ubuntu: //[01;32meos@ubuntu[00m:[01;34m//[00m$ r, [K[K[Kcd 
+]0;eos@ubuntu: ~[01;32meos@ubuntu[00m:[01;34m~[00m$ cd INNO-RTFDocs/eos
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos[00m$ cd /[Kbuild/
+]0;eos@ubuntu: ~/INNO-RTFDocs/eos/build[01;32meos@ubuntu[00m:[01;34m~/INNO-RTFDocs/eos/build[00m$ ls
+[0m[01;34mbin[0m                         CTestCustom.cmake     [01;34mlib[0m        [01;34mprograms[0m
+CMakeCache.txt              CTestTestfile.cmake   [01;34mlibraries[0m  [01;34mscripts[0m
+CMakeDoxyfile.in            [01;34mdebian[0m                [01;34mlicenses[0m   [01;34mtests[0m
+CMakeDoxygenDefaults.cmake  eos.doxygen           Makefile   [01;34mtools[0m
+[01;34
